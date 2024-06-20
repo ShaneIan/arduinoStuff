@@ -24,6 +24,7 @@ This project demonstrates communication between a Raspberry Pi 4 Model B and an 
 1. **Setup Hardware:**
    - Wire the 16x2 LCD screen to the Arduino following the provided schematic.
    - ![image](https://github.com/ShaneIan/arduinoStuff/assets/94504883/7c2aec95-8c49-4b1e-8456-558010c6c59a)
+   - https://lastminuteengineers.com/arduino-1602-character-lcd-tutorial/
 
 
 2. **Upload Arduino Sketch:**
