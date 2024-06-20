@@ -22,18 +22,20 @@ This project demonstrates communication between a Raspberry Pi 4 Model B and an 
 
 ## Usage
 1. **Setup Hardware:**
-   - Connect the Arduino Uno R4 WiFi to the Raspberry Pi via Bluetooth.
    - Wire the 16x2 LCD screen to the Arduino following the provided schematic.
+   - ![image](https://github.com/ShaneIan/arduinoStuff/assets/94504883/7c2aec95-8c49-4b1e-8456-558010c6c59a)
+
 
 2. **Upload Arduino Sketch:**
    - Open the Arduino IDE.
-   - Upload the provided Arduino sketch (`arduino_ble_receiver.ino`) to the Arduino Uno.
+   - Upload the provided Arduino sketch (`arduinoToma.ino`) to the Arduino Uno.
 
 3. **Run Raspberry Pi Script:**
+   - Find the MAC address of your Arduino and replace it with mine.
    - Ensure BluePy3 is installed on your Raspberry Pi.
-   - Run the Python script (`raspberry_pi_bluetooth_sender.py`) on the Raspberry Pi.
+   - Run the Python script (`launchToma.py`) on the Raspberry Pi.
 
-4. **View Output:**
+5. **View Output:**
    - The Raspberry Pi will send data to the Arduino.
    - Data received by the Arduino will be displayed on the connected LCD screen.
 
