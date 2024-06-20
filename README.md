@@ -34,3 +34,12 @@ This GitHub repository serves as a collection of basic communication setups betw
    ```bash
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
+   
+2. **Navigate to Specific Example Directory:**
+   - Choose either `IC2connectivity` or `BLEconnectivity` directory based on the connection method you want to explore.
+   ```bash
+   cd IC2connectivity
+   
+3. **Follow README in Example Directory:**
+   - Each example directory (`IC2connectivity` or `BLEconnectivity`) contains a README file with specific setup instructions and usage details.
+
